@@ -1,0 +1,26 @@
+{
+  "name": "test-invoice",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "node": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "convert-excel-to-json": "^1.7.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.2",
+    "express": "~4.16.1",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^2.3.3",
+    "node-xlsx": "^0.21.0",
+    "nodemon": "^2.0.19",
+    "read-excel-file": "^5.4.7",
+    "sequelize": "^6.21.6",
+    "sequelize-cli": "^6.4.1",
+    "xlsx": "^0.18.5",
+    "yup": "^0.32.11"
+  }
+}
